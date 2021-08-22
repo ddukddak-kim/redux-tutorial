@@ -1,11 +1,15 @@
 # Redux 공부 
 
+![Simpson Local](img/redux-logo.png)
+
 
 #### spec
 
 - jsonplaceholder에서 제공하는 API를 사용해 리소스 가져오기
 - `comments` Resource 사용.
 - [jsonplaceholder 사이트](https://jsonplaceholder.typicode.com/)
+
+<img src="C:\project\redux-tutorial\redux-tutorial\img\redux-logo.png"/>
 
 ## Redux
 - React와 함께 많이 사용되는 상태관리 라이브러리. 
@@ -41,5 +45,5 @@
     const unSubscribe = store.subscribe(listener);
     
     unSubscribe();    // 구독 비활성화할 때 호출
-- subscriber 함수 안에 리스너를 넣어 호출해 주면, 리스너 함수가 액션이 디스패치 되어 상태가 업데이트 될 때마다 호출됨.
+: subscriber 함수 안에 리스너를 넣어 호출해 주면, 리스너 함수가 액션이 디스패치 되어 상태가 업데이트 될 때마다 호출됨.
 
